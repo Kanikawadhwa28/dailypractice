@@ -9,8 +9,8 @@ public:
         }
         int count=0;
         for(auto i :mp){
-           if(i.second%2==0) count+=2;
-           else count+=1;
+           if(i.second%2) count+=1;
+           else count+=2;
         }
         return count;
     }
